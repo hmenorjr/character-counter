@@ -5,7 +5,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f7f0eb; /* Cute background color */
+    background-color: #d5f4e6; 
 }
 
 .container {
@@ -13,14 +13,14 @@ body {
     border-radius: 15px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: #fff; /* White background */
+    background-color: #fff; 
     max-width: 400px;
 }
 
 h1 {
     font-size: 28px;
     margin-bottom: 15px;
-    color: #e07a5f; /* Cute pink color */
+    color: #4ca369; 
 }
 
 textarea {
@@ -37,5 +37,5 @@ textarea {
 #charCount {
     margin-top: 10px;
     font-size: 18px;
-    color: #6d6d6d; /* Light gray color */
+    color: #6d6d6d;
 }
