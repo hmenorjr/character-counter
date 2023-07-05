@@ -5,6 +5,6 @@ document.addEventListener("DOMContentLoaded", function() {
     inputText.addEventListener("input", function() {
         const text = inputText.value;
         const charLength = text.length;
-        charCount.textContent = charLength + " characters";
+        charCount.textContent = (charLength <= 1) ? charLength + " character": charLength + " characters";
     });
 });
