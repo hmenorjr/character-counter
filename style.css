@@ -1,14 +1,20 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
+    background-color: #f8f8f8;
 }
 
 .container {
     text-align: center;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
 }
 
 textarea {
@@ -16,7 +22,10 @@ textarea {
     height: 150px;
     padding: 10px;
     border: 1px solid #ccc;
+    border-radius: 5px;
     resize: none;
+    font-size: 16px;
+    outline: none;
 }
 
 #charCount {
